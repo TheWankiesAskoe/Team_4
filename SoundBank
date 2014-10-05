@@ -1,0 +1,17 @@
+package platform;
+
+import java.applet.Applet;
+import java.applet.AudioClip;
+
+
+
+public class SoundBank {
+
+		public static final AudioClip FOOD = Applet.newAudioClip(SoundBank.class.getResource("sound_food.wav"));
+		
+		//public static final AudioClip BACK = Applet.newAudioClip(SoundBank.class.getResource("sound_death.wav"));
+		
+}
+	
+		
+	
